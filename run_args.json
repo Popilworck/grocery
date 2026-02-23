@@ -1,0 +1,17 @@
+{
+  "train_dir": "grocery/Vegetable Images/train",
+  "val_dir": "grocery/Vegetable Images/validation",
+  "arch": "convnext_base",
+  "img_size": 224,
+  "batch_size": 256,
+  "epochs": 30,
+  "lr": 0.0003,
+  "weight_decay": 0.05,
+  "label_smoothing": 0.1,
+  "num_workers": 12,
+  "amp": "bf16",
+  "grad_clip": 0.0,
+  "warmup_epochs": 2,
+  "out_dir": "outputs/cls_convnext_base",
+  "seed": 1337
+}
